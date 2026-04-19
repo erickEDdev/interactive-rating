@@ -1,1 +1,9 @@
 @import "tailwindcss";
+
+#root, header, html {
+    @apply bg-[#141519] w-full h-full
+}
+
+.active {
+    @apply bg-white text-gray-800
+}
